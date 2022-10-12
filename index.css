@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1F2937;
+    
+}
+
+ 
+.header-section{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center; 
+    background-color:#6943FF;
+    color: white ;
+    margin-bottom: 0px
+}
+
+.number-to-convert{
+    width: 90px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: solid 1px #A88AFF;
+    border-radius: 10px;
+    padding: 15px 20px
+}
+
+.buton-convert{
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500
+}
+
+.header-section>h3 ,input ,button{
+    margin-bottom: 20px
+}
+
+.content{
+    padding: 20px 15px
+}
+.content>div{
+   background-color: #273549;
+   padding:5px 30px;
+   margin-bottom: 20px;
+   border-top-left-radius: 5px
+   
+}
+
+.content-header{
+    color: #CCC1FF
+}
+
+.content-text{
+    color: white
+}
